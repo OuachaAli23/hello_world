@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1713636015 source:c:\test_git\hello_world\exercice_01\main.cpp
+	"Point.h"
+
+1713635993 c:\test_git\hello_world\exercice_01\point.h
+
+1713636007 source:c:\test_git\hello_world\exercice_01\point.cpp
+	<iostream>
+	"Point.h"
+

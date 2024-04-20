@@ -1,26 +1,5 @@
-#include <iostream>
-using namespace std ;
+#include "Point.h"
 
-class Point // Déclaration de la classe Point
-{
-    float x, y ;
-
-    public :
-        void initialise(float, float) ;
-        void deplace (float, float) ;
-        void affiche () ;
-} ;
-
-//Définition des fonctions membres
-void Point::initialise (float abs, float ord){
-    x = abs ; y = ord ;
-}
-void Point::deplace (float dx, float dy){
-    x = x + dx ; y = + dy ;
-}
-void Point::affiche (){
-    cout << "Mes coordonnées cartésiennes sont : " << x << " et " << y << endl ;
-}
 
 int main(){
     Point p1;
